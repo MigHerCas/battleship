@@ -1,0 +1,11 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Website with the Battleship game",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MigHerCas/battleship.git"
+  },
+  "author": "Miguel Hernanz",
+  "homepage": "https://github.com/MigHerCas/battleship#readme"
+}
