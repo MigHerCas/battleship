@@ -1,11 +1,17 @@
 {
   "name": "battleship",
   "version": "1.0.0",
-  "description": "Website with the Battleship game",
+  "description": "Website with the Battleship game. Comienzo: 20/04/2018",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MigHerCas/battleship.git"
   },
   "author": "Miguel Hernanz",
-  "homepage": "https://github.com/MigHerCas/battleship#readme"
+  "homepage": "https://github.com/MigHerCas/battleship#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  }
 }
