@@ -1,6 +1,6 @@
 
 .header {
-    background: $color-light-grey;
+    background-color: $color-primary-white;
     display: block;
     width: 100%;
     height: 10%;
@@ -30,10 +30,11 @@
         background: $color-dark-blue;
         float: right;
 
-        img {
-            height: 100%;
-            width: 100%;
-        }
+        position: relative;
+
+        background-image: url("../../assets/images/background-medium.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
 }
