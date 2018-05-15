@@ -449,9 +449,56 @@ template {
 
 html {
   font-size: 62.5%;
+  background: #F0F0F0;
+  height: 100%;
 }
 
 body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+body {
+  /* Properties related to font are usually inherited */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 2%;
+  height: 100%;
+}
+
+.header {
+  background: #777777;
+  display: block;
+  width: 100%;
+  height: 10%;
+}
+
+.game-content {
+  background: green;
+  display: block;
+  width: 100%;
+  height: 90%;
+  position: relative;
+}
+
+.game-content__sidebar {
+  display: block;
+  width: 26%;
+  height: 100%;
+  background: #333333;
+  float: left;
+}
+
+.game-content__container {
+  display: block;
+  width: 74%;
+  height: 100%;
+  background: #2C4877;
+  float: right;
+}
+
+.game-content__container img {
+  height: 100%;
+  width: 100%;
 }
