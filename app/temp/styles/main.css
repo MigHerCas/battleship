@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -449,7 +450,7 @@ template {
 
 html {
   font-size: 62.5%;
-  background: #022D64;
+  background: #FFF;
   height: 100%;
 }
 
@@ -479,20 +480,20 @@ body {
   background-color: #F0F0F0;
   display: block;
   width: 100%;
-  height: 10%;
+  height: 8%;
 }
 
 .game-content {
   background: green;
   display: block;
   width: 100%;
-  height: 90%;
+  height: 92%;
   position: relative;
 }
 
 .game-content__sidebar {
   display: block;
-  width: 26%;
+  width: 20%;
   height: 100%;
   background: #333333;
   float: left;
@@ -500,29 +501,76 @@ body {
 
 .game-content__container {
   display: block;
-  width: 74%;
+  width: 80%;
   height: 100%;
   background: #2C4877;
   float: right;
   position: relative;
-  background-image: url("../../assets/images/background-medium.jpg");
+  background-image: url("../../assets/images/background-prueba.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top center;
 }
 
 .barra-gris {
   width: 100%;
   height: 7%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   background-color: #777777;
+  border-bottom: 1px solid #3F4448;
 }
 
-.tiempo__container {
+.barra-gris__idiomas {
+  width: 8rem;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 3.5rem;
+}
+
+.barra-gris__idiomas img {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.barra-gris__idiomas--ingles {
+  float: left;
+  height: 100%;
+}
+
+.barra-gris__idiomas--español {
+  float: right;
+  height: 100%;
+}
+
+.tiempo {
   width: 16%;
   height: 5.5rem;
   margin: 0 auto;
   background-color: #333333;
   border-radius: 0 0 3px 3px;
+  border: 1px solid #3F4448;
+}
+
+.tiempo__texto {
+  color: #DAE0E1;
+  font-size: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tiempo__numeros {
+  color: #777777;
+  font-size: 1.8rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -1rem;
 }

@@ -1,12 +1,24 @@
 
 .tiempo {
-
-    &__container {
-        width: 16%;
-        height: 5.5rem;
-        margin: 0 auto;
-        background-color: $color-dark-grey;
-        border-radius: 0 0 3px 3px;
-    }
+    width: 16%;
+    height: 5.5rem;
+    margin: 0 auto;
+    background-color: $color-dark-grey;
+    border-radius: 0 0 3px 3px;
+    border: 1px solid $color-medium-grey;
     
+    &__texto{
+        color: $color-secondary-white;
+        font-size: 2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    &__numeros {
+        color: $color-light-grey;
+        font-size: 1.8rem;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -1rem;
+    }
 }
